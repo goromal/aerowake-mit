@@ -1,0 +1,33 @@
+[submodule "ros-packages/mav_disturbance_observer"]
+	path = ros-packages/mav_disturbance_observer
+	url = https://github.com/mit-acl/mav_disturbance_observer.git
+[submodule "ros-packages/mav_comm"]
+	path = ros-packages/mav_comm
+	url = https://github.com/ethz-asl/mav_comm.git
+[submodule "ros-packages/acl_msgs"]
+	path = ros-packages/acl_msgs
+	url = https://bitbucket.org/brettlopez/acl_msgs.git
+[submodule "ros-packages/aerowake_flight"]
+	path = ros-packages/aerowake_flight
+	url = https://github.com/goromal/aerowake_flight.git
+[submodule "ros-packages/aerowake_utils"]
+	path = ros-packages/aerowake_utils
+	url = https://github.com/goromal/aerowake_utils.git
+[submodule "ros-packages/roscopter"]
+	path = ros-packages/roscopter
+	url = https://github.com/goromal/roscopter.git
+[submodule "ros-packages/rosflight"]
+	path = ros-packages/rosflight
+	url = https://github.com/goromal/rosflight.git
+[submodule "ros-packages/aerowake_vision"]
+	path = ros-packages/aerowake_vision
+	url = https://github.com/goromal/aerowake_vision.git
+[submodule "firmware/rosflight_firmware"]
+	path = firmware/rosflight_firmware
+	url = https://github.com/goromal/rosflight_firmware.git
+[submodule "ros-packages/aerowake_tuning_gui"]
+	path = ros-packages/aerowake_tuning_gui
+	url = https://github.com/goromal/aerowake_tuning_gui.git
+[submodule "ros-packages/aerowake_params"]
+	path = ros-packages/aerowake_params
+	url = https://github.com/goromal/aerowake_params.git

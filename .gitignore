@@ -1,0 +1,9 @@
+TODO.md
+*.pyc
+*~
+gs_ws/build/*
+gs_ws/devel/*
+uav_ws/build/*
+uav_ws/devel/*
+sim_ws/build/*
+sim_ws/devel/*
