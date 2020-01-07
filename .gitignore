@@ -1,6 +1,7 @@
 TODO.md
 *.pyc
 *~
+*.bag
 gs_ws/build/*
 gs_ws/devel/*
 uav_ws/build/*
