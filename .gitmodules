@@ -31,3 +31,6 @@
 [submodule "ros-packages/aerowake_params"]
 	path = ros-packages/aerowake_params
 	url = https://github.com/goromal/aerowake_params.git
+[submodule "ros-packages/aerowake_sim"]
+	path = ros-packages/aerowake_sim
+	url = https://github.com/goromal/aerowake_sim.git
