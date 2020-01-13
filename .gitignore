@@ -3,6 +3,7 @@ TODO.md
 *~
 *.bag
 *.user*
+*.mp4
 gs_ws/build/*
 gs_ws/devel/*
 uav_ws/build/*
