@@ -34,3 +34,9 @@
 [submodule "ros-packages/aerowake_sim"]
 	path = ros-packages/aerowake_sim
 	url = https://github.com/goromal/aerowake_sim.git
+[submodule "matlab/matlab_utilities"]
+	path = matlab/matlab_utilities
+	url = https://github.com/goromal/matlab_utilities.git
+[submodule "ros-packages/GeomInertiaEstimator"]
+	path = ros-packages/GeomInertiaEstimator
+	url = https://github.com/arplaboratory/GeomInertiaEstimator.git
