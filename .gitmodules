@@ -49,3 +49,6 @@
 [submodule "ros-packages/rosflight_sil"]
 	path = ros-packages/rosflight_sil
 	url = https://github.com/goromal/rosflight_sil.git
+[submodule "ros-packages/tether_dynamics"]
+	path = ros-packages/tether_dynamics
+	url = https://github.com/goromal/tether_dynamics.git
