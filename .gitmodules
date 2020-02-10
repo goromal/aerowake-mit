@@ -43,3 +43,6 @@
 [submodule "ros-packages/air_dynamics"]
 	path = ros-packages/air_dynamics
 	url = https://github.com/goromal/air_dynamics.git
+[submodule "ros-packages/boat_dynamics"]
+	path = ros-packages/boat_dynamics
+	url = https://github.com/goromal/boat_dynamics.git
