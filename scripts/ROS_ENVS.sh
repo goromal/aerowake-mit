@@ -9,6 +9,17 @@ function ros_raven() {
     env | grep ROS_HOSTNAME
 }
 
+# For the odroid-in-the-loop simulation structure
+function ros_oil() {
+  export ROS_MASTER_URI=http://192.168.1.1:11311
+  export ROS_IP=$(hostname -I)
+  export ROS_HOSTNAME=$(hostname -I)
+
+  env | grep ROS_MASTER_URI
+  env | grep ROS_IP
+  env | grep ROS_HOSTNAME
+}
+
 # Make the local machine the ROS master
 function ros_local() {
     export ROS_MASTER_URI=http://localhost:11311
