@@ -52,3 +52,6 @@
 [submodule "ros-packages/tether_dynamics"]
 	path = ros-packages/tether_dynamics
 	url = https://github.com/goromal/tether_dynamics.git
+[submodule "ros-packages/uav_dynamics"]
+	path = ros-packages/uav_dynamics
+	url = https://github.com/goromal/uav_dynamics.git
