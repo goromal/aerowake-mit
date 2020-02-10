@@ -46,3 +46,6 @@
 [submodule "ros-packages/boat_dynamics"]
 	path = ros-packages/boat_dynamics
 	url = https://github.com/goromal/boat_dynamics.git
+[submodule "ros-packages/rosflight_sil"]
+	path = ros-packages/rosflight_sil
+	url = https://github.com/goromal/rosflight_sil.git
