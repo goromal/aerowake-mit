@@ -55,3 +55,6 @@
 [submodule "ros-packages/uav_dynamics"]
 	path = ros-packages/uav_dynamics
 	url = https://github.com/goromal/uav_dynamics.git
+[submodule "matlab/matlab-utils"]
+	path = matlab/matlab-utils
+	url = https://github.com/goromal/matlab-utils.git
