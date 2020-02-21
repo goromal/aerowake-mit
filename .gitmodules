@@ -58,3 +58,6 @@
 [submodule "matlab/matlab-utils"]
 	path = matlab/matlab-utils
 	url = https://github.com/goromal/matlab-utils.git
+[submodule "ros-packages/ublox-F9P"]
+	path = ros-packages/ublox-F9P
+	url = https://github.com/goromal/ublox-F9P.git
