@@ -8,7 +8,7 @@
 # for the ground station computer
 function unambiguous_hostname() {
     HOSTNAME_I=$(hostname -I)
-    if [ ${#HOSTNAME_I} -le 13 ]; then echo "$HOSTNAME_I"
+    if [ ${#HOSTNAME_I} -le 15 ]; then echo "$HOSTNAME_I"
     else echo "192.168.1.1"
     fi
 }

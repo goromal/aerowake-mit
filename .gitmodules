@@ -61,3 +61,12 @@
 [submodule "ros-packages/ublox-F9P"]
 	path = ros-packages/ublox-F9P
 	url = https://github.com/goromal/ublox-F9P.git
+[submodule "ros-packages/ethzasl_msf"]
+	path = ros-packages/ethzasl_msf
+	url = https://github.com/goromal/ethzasl_msf.git
+[submodule "ros-packages/glog_catkin"]
+	path = ros-packages/glog_catkin
+	url = https://github.com/ethz-asl/glog_catkin.git
+[submodule "ros-packages/catkin_simple"]
+	path = ros-packages/catkin_simple
+	url = https://github.com/catkin/catkin_simple.git
