@@ -4,12 +4,16 @@
 
 ## SUPPORTING FUNCTIONS
 
-# function for allowing odroid-in-the-loop (oil) IP ambiguity resolution 
+# function for allowing odroid-in-the-loop (oil) IP ambiguity resolution
 # for the ground station computer
 function unambiguous_hostname() {
     HOSTNAME_I=$(hostname -I)
     if [ ${#HOSTNAME_I} -le 15 ]; then echo "$HOSTNAME_I"
-    else echo "192.168.1.1"
+    else
+      if [[ $HOSTNAME_I =~ (192.168.1.)([^ ]*) ]]; then
+        IPTAIL="${BASH_REMATCH[2]}"
+      fi
+      echo "192.168.1.$IPTAIL"
     fi
 }
 
@@ -39,6 +43,3 @@ function ros_oil_g() { set_ros_vars 192.168.1.1; }
 
 # oil environment with ODROID ROS master
 function ros_oil_o() { set_ros_vars 192.168.1.140; }
-
-
-
