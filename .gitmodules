@@ -37,9 +37,6 @@
 [submodule "matlab/matlab_utilities"]
 	path = matlab/matlab_utilities
 	url = https://github.com/goromal/matlab_utilities.git
-[submodule "ros-packages/GeomInertiaEstimator"]
-	path = ros-packages/GeomInertiaEstimator
-	url = https://github.com/arplaboratory/GeomInertiaEstimator.git
 [submodule "ros-packages/air_dynamics"]
 	path = ros-packages/air_dynamics
 	url = https://github.com/goromal/air_dynamics.git
