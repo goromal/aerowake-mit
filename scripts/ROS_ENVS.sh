@@ -28,6 +28,9 @@ function set_ros_vars() {
 # For MIT's west high bay motion capture room
 function ros_raven() { set_ros_vars 192.168.0.19; }
 
+# west high bay motion capture room with odroid master
+function ros_oraven() { set_ros_vars 192.168.0.140; }
+
 # Make the local machine the ROS master
 function ros_local() { set_ros_vars localhost; }
 
@@ -36,4 +39,6 @@ function ros_oil_g() { set_ros_vars 192.168.1.1; }
 
 # oil environment with ODROID ROS master
 function ros_oil_o() { set_ros_vars 192.168.1.140; }
+
+
 

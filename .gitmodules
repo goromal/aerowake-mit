@@ -61,3 +61,6 @@
 [submodule "ros-packages/ethzasl_msf"]
 	path = ros-packages/ethzasl_msf
 	url = https://github.com/goromal/ethzasl_msf.git
+[submodule "scripts/sysid/multirotor-drag-sysid"]
+	path = scripts/sysid/multirotor-drag-sysid
+	url = https://github.com/goromal/multirotor-drag-sysid.git

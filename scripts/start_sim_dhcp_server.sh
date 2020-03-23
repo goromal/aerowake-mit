@@ -7,8 +7,13 @@
 ### to make sure the connection is working
 
 # bring up the enp8s0 interface
-sudo ifup enp8s0 || sudo ifup enx9cebe84d6389 || sudo ifup eth0
+sudo ifup enx9cebe84d6389 || sudo ifup eth0
+# sudo ifup enp8s0 || sudo ifup enx9cebe84d6389 || sudo ifup eth0
 # start DHCP service
 sudo service isc-dhcp-server start # sudo service isc-dhcp-server stop
 # enable forwarding from the ethernet to wireless router
 sudo /sbin/iptables --table nat -A POSTROUTING -o wlan0 -j MASQUERADE
+
+# observe results
+tail -f /var/log/syslog
+
